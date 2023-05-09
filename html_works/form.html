@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- method="post" : 통신 방식으로 post -->
+        <!-- action="search.jsp" : 해당 문서(serch.jsp)로 이동 -->
+        <!-- form 태그 안의 태그 값들이 서버로 전송됨 -->
+        <form method="post" action="serch.jsp">
+            <!-- input : 특정 UI 항목을 만들때 사용 -->
+            <!-- type="text" : 텍스트 박스 -->
+            <input type="text">
+            <!-- 파일에 액세스 할 수 없음 -> search.jsp파일이 아직 없음 -->
+            <!-- type="submit" : 서버로 전송되는 버튼 -->
+            <!-- submit 타입에 value="검색" 속성은 버튼에 표시되는 값 -->
+            <input type="submit" value="검색">
+            <!-- type="button"은 클릭만 되고 기본 이동은 X -->
+            <input type="button" value="검색">
+        </form>
+    </body>
+</html>
